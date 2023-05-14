@@ -3,7 +3,7 @@
 
 void minha_funcao() {
  int a, b, c, i, j, k, N;
-    N = 30000;
+    N = 3000;
     for (i = 1; i < N; i=i+1) {
         for (j = i+1; j < N; j=j+1) {
             for (k = j+1; k < N; k=k+1) {
