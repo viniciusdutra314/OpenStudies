@@ -10,11 +10,11 @@
     </style>>
 </head>
 <body>
-    <h1>Olá, brother</h1>
+    <h1 name ="começo">Olá, brother</h1>
     <script>
-        var teste =document.getElementsByTagName(h1)[0]
+        var teste =document.getElementsByName("começo")[0]
         window.alert("Hey")
-        alert(`O primeiro paragráfo tenho ${teste}`)
+        alert(`O primeiro paragráfo tenho ${teste.innerText}`)
     </script>
 </body>
 </html>
