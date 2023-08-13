@@ -3,4 +3,6 @@
 .vscode/tasks.json
 Untitled-1.py
 *.exe
+*.so
+*.out
 C/.vscode/settings.json
