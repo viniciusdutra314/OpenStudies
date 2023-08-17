@@ -1,0 +1,5 @@
+Temos aqui um arquivo deve ser escrito
+e também lindo
+bora ver se esse trem funciona bem
+essa linha é nova! (append)
+essa linha é nova! (append)
