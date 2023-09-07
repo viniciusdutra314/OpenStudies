@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id ="area" onmouseenter="dentro()" onmouseleave="fora()"> 
+        Milissegundos
+    </div>
+    <div id="numeros"></div>
+       <script>
+        var a =document.getElementById("area")
+        var b =document.getElementById("numeros")
+        function dentro(){inicio= new Date()}
+        function fora(){
+            fim= new Date()
+            digito=String(fim-inicio)
+            b.innerText+=`${digito}, `} 
+       </script> 
+</body>
+</html>
