@@ -1,1 +1,1 @@
-g++ malloc.cpp -o a.out && ./a.out && rm a.out
+g++ matrix_mul.cpp -o a.out && ./a.out && rm a.out
